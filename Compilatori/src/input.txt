@@ -1,0 +1,9 @@
+int x = 10;
+bool flag = true;
+x = x + 5;
+if (x > 15) {
+    flag = false;
+} else {
+    flag = true;
+    x = x * 2;
+}
